@@ -14,7 +14,7 @@ const goals = [
 export default function HealthcareAwardSection() {
   return (
     <section className="w-full bg-[#e7c2af] py-12 px-4 sm:px-6 md:px-8 lg:px-12">
-      <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center lg:justify-between gap-8">
+      <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center gap-8">
         {/* Text Section */}
         <div className="w-full lg:w-1/2">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-4 leading-snug">
@@ -24,7 +24,7 @@ export default function HealthcareAwardSection() {
             This recognition celebrates our Smile on Wheels mobile healthcare
             programme that has been instrumental in reaching the most isolated
             areas, expanding access to healthcare and supporting the National
-            Health Mission’s vision of health for all.
+            Health Mission&apos;s vision of health for all.
           </p>
           <a
             href="#"
@@ -45,7 +45,6 @@ export default function HealthcareAwardSection() {
                 src={goal.image}
                 alt={goal.title}
                 fill
-                priority
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover rounded-lg"
               />
