@@ -1,7 +1,6 @@
 import Hero from "./components/Hero";
 import ImpactStats from "./components/ImpactStats";
 import Programmes from "./components/Programmes";
-import SDGs from "./components/SDGs";
 import Stories from "./components/Stories";
 import SupportCause from "./components/SupportCause";
 import Partners from "./components/Partners";
@@ -19,7 +18,7 @@ export default function HomePage() {
       <ImpactStats />
       <Programmes />
       <GoalsSection />
-      {/* <SDGs /> */}
+
       <Stories />
       <SupportCause />
       <Partners />
